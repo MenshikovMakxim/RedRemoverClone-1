@@ -1,0 +1,61 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfv5pm8elkyqm"]
+
+[ext_resource type="PackedScene" uid="uid://b1tf78krin8me" path="res://Block.tscn" id="1_kvvkh"]
+[ext_resource type="PackedScene" uid="uid://dfcdnlonauemn" path="res://Shelf.tscn" id="2_aaqj5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Block7" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(625, 416)
+gravity_scale = 1.0
+
+[node name="Block21" parent="." instance=ExtResource("1_kvvkh")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(584, 288)
+gravity_scale = 1.0
+type_id = 1
+
+[node name="Shelf2" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(576, 552)
+scale = Vector2(1.09, 1.09)
+
+[node name="Block8" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(432, 480)
+gravity_scale = 1.0
+shape_id = 1
+
+[node name="Block9" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(545, 416)
+gravity_scale = 1.0
+
+[node name="Block10" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(656, 480)
+gravity_scale = 1.0
+shape_id = 1
+
+[node name="Block11" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(504, 480)
+gravity_scale = 1.0
+shape_id = 1
+
+[node name="Block12" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(584, 480)
+gravity_scale = 1.0
+shape_id = 1
+
+[node name="Block13" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(464, 416)
+gravity_scale = 1.0
+
+[node name="Block14" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(696, 416)
+gravity_scale = 1.0
+
+[node name="Block15" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(728, 480)
+gravity_scale = 1.0
+shape_id = 1
+
+[node name="Block16" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(584, 352)
+gravity_scale = 1.0

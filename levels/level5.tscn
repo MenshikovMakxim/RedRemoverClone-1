@@ -1,0 +1,67 @@
+[gd_scene load_steps=3 format=3 uid="uid://chhpcqs2r2j2g"]
+
+[ext_resource type="PackedScene" uid="uid://b1tf78krin8me" path="res://Block.tscn" id="1_8mh55"]
+[ext_resource type="PackedScene" uid="uid://dfcdnlonauemn" path="res://Shelf.tscn" id="2_hydfx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Block3" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(408, 352)
+gravity_scale = 1.0
+
+[node name="Block7" parent="." instance=ExtResource("1_8mh55")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(384, 288)
+gravity_scale = 1.0
+type_id = 1
+
+[node name="Block6" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(488, 352)
+gravity_scale = 1.0
+
+[node name="Block10" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(448, 288)
+scale = Vector2(0.959024, 1.02258)
+gravity_scale = 1.0
+
+[node name="Block17" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(520, 416)
+gravity_scale = 1.0
+
+[node name="Block21" parent="." instance=ExtResource("1_8mh55")]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(512, 288)
+gravity_scale = 1.0
+type_id = 2
+
+[node name="Block24" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(376, 416)
+gravity_scale = 1.0
+
+[node name="Shelf" parent="." instance=ExtResource("2_hydfx")]
+position = Vector2(448, 480)
+scale = Vector2(0.328, 0.929)
+
+[node name="Shelf2" parent="." instance=ExtResource("2_hydfx")]
+position = Vector2(648, 480)
+scale = Vector2(0.328, 0.929)
+
+[node name="Shelf3" parent="." instance=ExtResource("2_hydfx")]
+position = Vector2(248, 480)
+scale = Vector2(0.328, 0.929)
+
+[node name="Block18" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(648, 416)
+gravity_scale = 1.0
+shape_id = 1
+
+[node name="Block19" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(248, 416)
+gravity_scale = 1.0
+shape_id = 1
+
+[node name="Block20" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(544, 480)
+
+[node name="Block22" parent="." instance=ExtResource("1_8mh55")]
+position = Vector2(352, 480)
